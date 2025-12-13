@@ -50,6 +50,8 @@ d). Интеграция с агентами Evolution AI:
 
   `Pillow==11.3.0`
 
+  `pycparser==2.22`
+
   `pydantic==2.11.7`
 
   `pydantic_settings==2.10.1`
