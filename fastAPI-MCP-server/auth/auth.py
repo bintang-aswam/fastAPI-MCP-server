@@ -3,8 +3,8 @@ import jwt
 from jwt import PyJWKClient
 from fastapi import Depends
 from fastapi.security import SecurityScopes, HTTPAuthorizationCredentials, HTTPBearer
-from app.auth.auth_config import get_settings
-from app.auth.exceptions import UnauthenticatedException, UnauthorizedException
+from fastAPI-MCP-server.auth.auth_config import get_settings
+from fastAPI-MCP-server.auth.exceptions import UnauthenticatedException, UnauthorizedException
 
 class TokenVerifier:
     def __init__(self):
