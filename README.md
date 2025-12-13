@@ -37,17 +37,29 @@ d). Интеграция с агентами Evolution AI:
 
 ### 5). Соответствующие технологические стеки
 - requirements.txt содержит следующие:
+  
   `cffi==1.17.1`
+
   `cryptography==45.0.5`
+
   `fastapi==0.116.1`
+
   `fastapi_mcp==0.3.7`
+
   `httpx==0.28.1`
+
   `Pillow==11.3.0`
+
   `pydantic==2.11.7`
+
   `pydantic_settings==2.10.1`
+
   `PyJWT==2.10.1`
+
   `pytesseract==0.3.13`
+
   `pyzbar==0.1.9`
+
   `Requests==2.32.4`
 
 ### 6). Структура репозитория
