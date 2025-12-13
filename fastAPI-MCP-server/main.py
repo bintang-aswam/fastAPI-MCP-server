@@ -11,8 +11,8 @@ import requests
 from pyzbar.pyzbar import decode as decode_barcode
 import urllib.request
 
-from app.auth.auth import TokenVerifier
-from app.auth.auth_config import get_settings
+from fastAPI-MCP-server.auth.auth import TokenVerifier
+from fastAPI-MCP-server.auth.auth_config import get_settings
 
 from fastapi_mcp import FastApiMCP, AuthConfig
 
